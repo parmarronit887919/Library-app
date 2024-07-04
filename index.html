@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library App</title>
+</head>
+
+<body>
+    <button class="open-modal">Add Books</button>
+    <div id="conatiner">
+        <dialog class="modal">
+            <form id="formdata" method="dialog">
+                <label for="book_name">Book Name</label>
+                <input type="text" name="book_name" id="name">
+                <label for="author_name">Author Name</label>
+                <input type="text" name="author_name" id="author">
+                <label for="no_of_page">No Of Page</label>
+                <input type="text" name="no_of_page" id="noOfpage">
+                <label for="read-status">Have you read the?</label>
+                <input type="text" name="read-status" id="readStatus">
+                <button type="submit">Submit</button>
+            </form>
+        </dialog>
+        <dialog id="completeCard">
+            <p id="bookname"></p>
+            <p id="bookauthor"></p>
+            <p id="noOfPage"></p>
+            <p id="status"></p>
+            <button id="close">Close</button>
+        </dialog>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+label{
+    display: block;
+    margin: 2vh 0;
+}
+
+
+.cards{
+    padding: 2vh;
+    background-color: whitesmoke;
+    max-width: 300px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.cards >{
+    font-size: 4rem;
+}
+
+#conatiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-auto-rows: auto;
+    margin: 2vh 0 0 4vw;
+    grid-row-gap: 4vh;
+}
